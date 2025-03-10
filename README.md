@@ -34,7 +34,7 @@ Welcome to my personal portfolio! This website showcases my skills, education, p
 
 2. **Navigate to the project directory**
    ```bash
-   cd your-portfolio
+   cd My_Portfolio
    ```
 
 3. **Install dependencies**
@@ -44,7 +44,7 @@ Welcome to my personal portfolio! This website showcases my skills, education, p
 
 4. **Start the development server**
    ```bash
-   npm start
+   npm run dev
    ```
 
 5. **Open in Browser**

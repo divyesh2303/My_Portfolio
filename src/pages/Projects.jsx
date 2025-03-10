@@ -105,18 +105,18 @@ const ProjectCard = styled(motion.div)`
 
 const projects = [
   {
+    name: "  Personal Portfolio Website",
+    link: "https://github.com/divyesh2303/My_Portfolio",
+    github: "https://github.com/divyesh2303/My_Portfolio",
+    description: " A sleek and responsive portfolio showcasing my skills, education, projects, contact details, and more.",
+    techStack: ["HTML", "CSS", "JavaScript", "GSAP"],
+  },
+  {
     name: "User Management CRUD App",
     link: "https://github.com/divyesh2303/MyUserCRUD",
     github: "https://github.com/divyesh2303/MyUserCRUD",
     description: "A responsive CRUD web app using React, Bootstrap, and Context API with user registration, table management, CSV export/import, and edit/delete functionality..",
     techStack: [ "HTML & CSS","Bootstrap","React","Context API"],
-  },
-  {
-    name: "Starbuck Cafe",
-    link: "https://github.com/Divyeshs2303/Starbuck-Cafe",
-    github: "https://github.com/Divyeshs2303/Starbuck-Cafe",
-    description: "A Starbucks-inspired website with animations.",
-    techStack: ["HTML", "CSS", "JavaScript", "GSAP"],
   },
   {
     name: "Music Player with Animated Album Covers",
@@ -125,6 +125,14 @@ const projects = [
     description: "An interactive 3D music player featuring animated album covers, smooth transitions, and immersive visual effects",
     techStack: ["HTML", "CSS", "JS"],
   },
+  {
+    name: "Starbuck Cafe",
+    link: "https://github.com/divyesh2303/Starbuck-Cafe",
+    github: "https://github.com/divyesh2303/Starbuck-Cafe",
+    description: "A Starbucks-inspired website with animations.",
+    techStack: ["HTML", "CSS", "JavaScript", "GSAP"],
+  },
+
 
 ];
 

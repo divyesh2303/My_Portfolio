@@ -194,7 +194,7 @@ const experiences = [
     company: "Brilworks",
     duration: "Oct - Present",
     role: "Web Developer",
-    details: "Working on full-stack projects with PHP and MySQL integration.",
+    details:"I am working on a full-stack AI application that leverages API integration and modern technologies.",
   },
 ];
 

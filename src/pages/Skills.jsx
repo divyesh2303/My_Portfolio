@@ -139,12 +139,10 @@
   // Skill data with proficiency levels and icons
   const skills = [
     { name: "HTML5", level: 90, icon: <FaHtml5 /> },
-    { name: "CSS3", level: 85, icon: <FaCss3Alt /> },
+    { name: "CSS3", level: 90, icon: <FaCss3Alt /> },
     { name: "JavaScript", level: 80, icon: <FaJs /> },
     { name: "React.js", level: 75, icon: <FaReact /> },
-    { name: "Bootstrap", level: 70, icon: <FaBootstrap /> },
-    { name: "PHP", level: 65, icon: <FaPhp /> },
-    { name: "MySQL", level: 60, icon: <FaDatabase /> },
+    { name: "Bootstrap", level: 85, icon: <FaBootstrap /> },
   ];
 
   const Skills = () => {

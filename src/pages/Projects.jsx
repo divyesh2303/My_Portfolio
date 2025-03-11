@@ -106,7 +106,7 @@ const ProjectCard = styled(motion.div)`
 const projects = [
   {
     name: "  Personal Portfolio Website",
-    link: "divyesh230.netlify.app",
+    link: "https://divyesh230.netlify.app/",
     github: "https://github.com/divyesh2303/My_Portfolio",
     description: " A sleek and responsive portfolio showcasing my skills, education, projects, contact details, and more.",
     techStack: ["HTML", "CSS", "JavaScript", "GSAP"],

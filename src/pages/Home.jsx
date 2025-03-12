@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import WorkExperience from "./WorkExperience";
 
 const Container = styled.div`
   display: flex;
@@ -29,7 +30,6 @@ const Container = styled.div`
   }
 
   .download-btn {
-    margin-top: 20px;
     padding: 14px 30px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -84,7 +84,9 @@ const Home = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         A Passionate Web Developer 🚀
+        <WorkExperience  />
       </motion.p>
+    
       <motion.a
         href="https://drive.google.com/uc?export=download&id=1WKjKJfrSq4YtcM1kqFKePVI8_V1gPwN3"
         download

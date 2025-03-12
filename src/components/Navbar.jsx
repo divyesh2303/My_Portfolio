@@ -26,7 +26,7 @@ const MobileMenu = styled.div`
   right: ${({ open }) => (open ? "0" : "-100%")};
   width: 75%;
   height: 100vh;
-  background: ${({ darkMode }) => (darkMode ? "#121212" : "#fff")}; 
+  background: ${({ darkMode }) => (darkMode ? "black " : "#fff")}; 
   color: ${({ darkMode }) => (darkMode ? "#28A745" : "#333")}; 
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.3);
   transition: right 0.3s ease-in-out;
@@ -83,7 +83,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="d-none d-lg-flex gap-4">
+        <div className="d-none d-lg-flex gap-4 fs-4">
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/skills">Skills</Link>
           <Link className="nav-link" to="/experience">Experience</Link>

@@ -3,6 +3,7 @@
   import { useContext } from "react";
   import { ThemeContext } from "../context/ThemeContext";
   import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaPhp, FaDatabase } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
   const Container = styled.div`
     padding: 40px;
@@ -143,6 +144,7 @@
     { name: "JavaScript", level: 80, icon: <FaJs /> },
     { name: "React.js", level: 75, icon: <FaReact /> },
     { name: "Bootstrap", level: 85, icon: <FaBootstrap /> },
+    { name: "Tailwindcss", level: 85, icon: <SiTailwindcss />    },
   ];
 
   const Skills = () => {

@@ -84,11 +84,11 @@ const Home = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         A Passionate Web Developer 🚀
-        <WorkExperience  />
+        {/* <WorkExperience /> */}
       </motion.p>
-    
+
       <motion.a
-        href="https://drive.google.com/uc?export=download&id=1WKjKJfrSq4YtcM1kqFKePVI8_V1gPwN3"
+        href="https://drive.google.com/file/d/1jUOL1eo7DL_AaEocrwv6lZ_OjAifK41H/view?usp=drive_link"
         download
         className="download-btn"
         initial={{ opacity: 0 }}

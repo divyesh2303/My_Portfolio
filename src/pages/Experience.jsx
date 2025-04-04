@@ -67,17 +67,17 @@ const Timeline = styled.div`
     background: ${({ darkMode }) => (darkMode ? "#28A745" : "#dee2e6")};
     transform: translateX(-50%);
     box-shadow: ${({ darkMode }) =>
-      darkMode ? "0 0 15px #28A745, 0 0 5px #28A745" : "none"};
+    darkMode ? "0 0 15px #28A745, 0 0 5px #28A745" : "none"};
     animation: pulse 2s infinite alternate;
 
     @keyframes pulse {
       from {
         box-shadow: ${({ darkMode }) =>
-          darkMode ? "0 0 10px #28A745" : "none"};
+    darkMode ? "0 0 10px #28A745" : "none"};
       }
       to {
         box-shadow: ${({ darkMode }) =>
-          darkMode ? "0 0 20px #28A745, 0 0 10px #28A745" : "none"};
+    darkMode ? "0 0 20px #28A745, 0 0 10px #28A745" : "none"};
       }
     }
   }
@@ -192,9 +192,9 @@ const experiences = [
   },
   {
     company: "Brilworks",
-    duration: "Oct - Present",
+    duration: "Oct - Mar",
     role: "Web Developer",
-    details:"I am working on a full-stack AI application that leverages API integration and modern technologies.",
+    details: "I am working on a full-stack AI application that leverages API integration and modern technologies.",
   },
 ];
 
